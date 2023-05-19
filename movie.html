@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title> Crazy Movie </title>
+    <div class="content">
+
+        <h1> Crazy Movie  <i class="bi bi-play-circle-fill"></i></h1>
+        <div class="text">
+   
+            <input type="text" id="text" username="moviename" placeholder="movie name" required="text"> 
+            <button type="submit" id="search" required="text">search</button><hr>
+        </div>    
+        </div>
+        
+</head>
+
+
+  
+<body>
+   <div class="body">
+      <div class="productlist">
+         <div class="itemsnake">
+            <img width="150" src="346131856_269412578895851_2564548034934186273_n.jpg"><a href="snake.mp4">Snake</a></img>
+         </div>
+         
+        <br><div class="itemmovie">
+            <img width="150" src="348363224_743645360884764_7608167294818591245_n.jpg"><a href="">movie</a></img>
+        </div>  
+
+        <br><div class="itemHan">
+            <img width="150" src="346151963_2572158146273726_4845214389707017997_n.jpg"><a href="">Hang Ma Jruyen</a></img>
+        </div>   
+
+        <br><div class="itemthewitch">
+            <img width="150" src="346123143_756587719342242_2556582122702229560_n.jpg"><a href="">The Witch</a></img>
+        </div>   
+
+        <br><div class="itemkorea">
+            <img width="150" src="348354854_547409060931495_3241333924210963602_n.jpg"><a href="">Korea</a></img>
+        </div> 
+        
+        <br><div class="itemthewave">
+            <img width="150" height="225" src="348375867_926887438399739_2780867135218344513_n.jpg"><a href="">The Wave</a></img>
+        </div>   
+
+
+                <hr>
+
+
+
+
+
+                </div>
+                    </div>
+</body>
+
+<style>
+    .body{
+        width: auto;
+        height: auto;
+        background-color: rgba(53, 241, 241, 0.007);
+    }
+    .content{
+        width: auto;
+        background-color: palevioletred;
+        margin: auto;
+
+    }
+    h1{
+       width: 450px;
+       margin: auto;
+       height: 75px;
+       font-size: 50px;
+       padding-top: 10px;
+       padding-left: 50px;
+
+    }
+    .itemsnake{
+        width: 150px;
+        margin-top: 25px;
+        background-color: gray;
+        font-size: 20px;
+        padding: auto;
+        
+        
+       
+    }
+    .itemmovie{
+        width: 150px;
+        background-color:darkorchid ;
+        margin-left: 200px;
+        margin-top: -282.5px;
+        padding-bottom: 25px;
+        font-family: sans-serif;
+        
+       
+       
+    }
+    .itemHan{
+        width: 150px;
+        background-color: black;
+        margin-left: 400px;
+        margin-top: -290px;
+        padding-bottom: 25px;
+        font-family: sans-serif;
+        color: aliceblue;
+    }
+    
+    .text{
+        width: auto;
+        
+        margin: auto;
+    }
+    .itemthewitch{
+        width: 150px;
+        background-color: rgb(34, 233, 117);
+        margin-left: 600px;
+        margin-top: -288px;
+        padding-bottom: 25px;
+        font-family: sans-serif;
+    }
+    .itemkorea{
+        width: 150px;
+        background-color: rgb(68, 79, 230);
+        margin-left: 800px;
+        margin-top: -285px;
+        padding-bottom: 25px;
+        font-family: sans-serif;
+    }
+    .itemthewave{
+        width: 150px;
+        height:110 px;
+        background-color: rgba(27, 141, 194, 0.185);
+        margin-left: 1000px;
+        margin-top: -280px;
+        padding-bottom: 25px;
+        font-family: sans-serif;
+    }
+    @media(max-width:1000px){
+        .productlist{
+            grid-template-columns:repeat(3,150px)
+        }
+    }
+    @media(max-width:500px){
+        .productlist{
+            grid-template-columns:repeat(2,150px) ;
+        }
+    }
+</style>
+<script>
+    let text=queueMicrotask('text');
+    let search=queueMicrotask('search');
+    let result=document;
+ console.log (result)
+</script>
+</html>
